@@ -525,7 +525,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.15, 80.15, 533.3333333, 895}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {79.26, 79.26, 533.3333333, 862}
 //Angepasst, da Bauteile etwas zu klein geworden sind. Default Ultimaker {78.7402,78.7402,200.0*8/3,760*1.1}
 /**
  * Default Max Feed Rate (mm/s)
