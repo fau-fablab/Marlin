@@ -525,8 +525,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402, 78.7402, 533.3333333, 836}
-
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.15, 80.15, 533.3333333, 895}
+//Angepasst, da Bauteile etwas zu klein geworden sind. Default Ultimaker {78.7402,78.7402,200.0*8/3,760*1.1}
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
@@ -952,7 +952,7 @@
  * Use the LCD controller for bed leveling
  * Requires MESH_BED_LEVELING or PROBE_MANUALLY
  */
-//#define LCD_BED_LEVELING
+#define LCD_BED_LEVELING
 
 #if ENABLED(LCD_BED_LEVELING)
   #define MBL_Z_STEP 0.025    // Step size while manually probing Z axis.
